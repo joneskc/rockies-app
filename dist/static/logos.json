@@ -1,0 +1,91 @@
+[{
+    "team": "Angels",
+    "logo": "/static/logos/Angels.png"
+},{
+    "team": "Astros",
+    "logo": "/static/logos/Astros.png"
+},{
+    "team": "Athletics",
+    "logo": "/static/logos/Athletics.png"
+},{
+    "team": "Blue Jays",
+    "logo": "/static/logos/BlueJays.png"
+},{
+    "team": "Braves",
+    "logo": "/static/logos/Braves.png"
+},{
+    "team": "Brewers",
+    "logo": "/static/logos/Brewers.png"
+},{
+    "team": "Cardinals",
+    "logo": "/static/logos/Cardinals.png"
+},{
+    "team": "Cubs",
+    "logo": "/static/logos/Cubs.png"
+},{
+    "team": "Diamondbacks",
+    "logo": "/static/logos/Diamondbacks.png"
+},{
+    "team": "Dodgers",
+    "logo": "/static/logos/Dodgers.png"
+},{
+    "team": "Giants",
+    "logo": "/static/logos/Giants.png"
+},{
+    "team": "Indians",
+    "logo": "/static/logos/Indians.png"
+},{
+    "team": "Mariners",
+    "logo": "/static/logos/Mariners.png"
+},{
+    "team": "Marlins",
+    "logo": "/static/logos/Marlins.png"
+},{
+    "team": "Mets",
+    "logo": "/static/logos/Mets.png"
+},{
+    "team": "Nationals",
+    "logo": "/static/logos/Nationals.png"
+},{
+    "team": "Orioles",
+    "logo": "/static/logos/Orioles.png"
+},{
+    "team": "Padres",
+    "logo": "/static/logos/Padres.png"
+},{
+    "team": "Phillies",
+    "logo": "/static/logos/Phillies.png"
+},{
+    "team": "Pirates",
+    "logo": "/static/logos/Pirates.png"
+},{
+    "team": "Rangers",
+    "logo": "/static/logos/Rangers.png"
+},{
+    "team": "Rays",
+    "logo": "/static/logos/Rays.png"
+},{
+    "team": "Reds",
+    "logo": "/static/logos/Reds.png"
+},{
+    "team": "Red Sox",
+    "logo": "/static/logos/RedSox.png"
+},{
+    "team": "Rockies",
+    "logo": "/static/logos/Rockies.png"
+},{
+    "team": "Royals",
+    "logo": "/static/logos/Royals.png"
+},{
+    "team": "Tigers",
+    "logo": "/static/logos/Tigers.png"
+},{
+    "team": "Twins",
+    "logo": "/static/logos/Twins.png"
+},{
+    "team": "White Sox",
+    "logo": "/static/logos/WhiteSox.png"
+},{
+    "team": "Yankees",
+    "logo": "/static/logos/Yankees.png"
+}]

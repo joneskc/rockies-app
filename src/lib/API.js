@@ -1,9 +1,5 @@
 // MLB Trial v6
-const proxy =
-const base_URL = 'http://api.sportradar.us/mlb/trial/v6.5/en/games/'
-
-const API_KEY =
-
+const keys = require ('./keys')
 
 var today = new Date();
 var dd = today.getDate();
@@ -73,7 +69,7 @@ var aryDates = GetDates(startDate, 7);
 
 export default {
     async getGames(gameDate = today) {
-        const API_URL = `${proxy}http://api.sportradar.us/mlb/trial/v6.5/en/games/${gameDate}/schedule.json?api_key=${api_key}`
+        const API_URL = `${keys.default.proxy}http://api.sportradar.us/mlb/trial/v6.5/en/games/${gameDate}/schedule.json?api_key=${keys.default.API_SECRET_KEY}`
         const res = await fetch(API_URL).then(res => res.json())
         return res
     },
