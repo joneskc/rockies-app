@@ -1,23 +1,63 @@
 <template>
   <div id="app">
-    <h1>This will be my Rockies app!</h1>
-    <router-view/>
+    <Header />
+    <main>
+      <Matchup
+        :todaysGames="todaysGames.games"
+        :datesDropdown="datesDropdown"
+        :getGamesByDate="getGamesByDate"
+        :logos="logos"/>
+    </main>
+    <Footer />
   </div>
 </template>
 
 <script>
+import Header from '@/components/Header'
+import Matchup from '@/components/Matchup'
+import Footer from '@/components/Footer'
+
+import API from '@/lib/API'
+
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    Header,
+    Matchup,
+    Footer
+  },
+  data () {
+    return {
+      todaysGames: [],
+      datesDropdown: [],
+      logos: []
+    }
+  },
+  mounted() {
+    this.datesDropdown = API.aryDates
+    this.getGamesByDate()
+    this.populateLogos()
+  },
+  methods: {
+    async getGamesByDate(date) {
+      this.todaysGames = await API.getGames(date)
+    },
+    async populateLogos() {
+      this.logos = await API.getLogos()
+    }
+  }
 }
 </script>
 
 <style>
+main {
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  background-image: url("https://hdwallsource.com/img/2016/7/colorado-rockies-widescreen-wallpaper-50376-52067-hd-wallpapers.jpg");
+  background-size: 100% 100%;
+  height: 100vh;
 }
 </style>

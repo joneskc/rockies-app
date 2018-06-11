@@ -11,7 +11,10 @@
   },
   "dependencies": {
     "mlbgames": "^1.0.5",
+    "moment": "^2.22.2",
+    "moment-timezone": "^0.5.17",
     "vue": "^2.5.2",
+    "vue-moment": "^4.0.0-0",
     "vue-router": "^3.0.1"
   },
   "devDependencies": {

@@ -4,6 +4,15 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
+Vue.use(require('vue-moment'))
+
+import VueMoment from 'vue-moment'
+// import moment from 'moment-timezone'
+
+// Vue.use(VueMoment, {
+//   moment,
+// })
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
